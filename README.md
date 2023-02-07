@@ -56,11 +56,84 @@ https://realpython.com/python-string-formatting/
 https://realpython.com/python-f-strings/
 
 
-1. Project's Title
-2. Project Description
-3. Table of Contents (Optional)
-4. How to Install and Run the Project
-5. How to Use the Project
-6. Include Credits, Tests, 
-7. Conclusion
-https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+WEEK 3 TASK: .py
+
+Task 3 Description:
+
+Method:
+
+
+Conclusion:
+
+
+References:
+
+
+
+WEEK 4 TASK: .py
+
+Task 4 Description:
+
+Method:
+
+
+Conclusion:
+
+
+References:
+
+
+
+WEEK 5 TASK: .py
+
+Task 5 Description:
+
+Method:
+
+
+Conclusion:
+
+
+References:
+
+
+
+WEEK 6 TASK: .py
+
+Task 6 Description:
+
+Method:
+
+
+Conclusion:
+
+
+References:
+
+
+
+WEEK 7 TASK: .py
+
+Task 7 Description:
+
+Method:
+
+
+Conclusion:
+
+
+References:
+
+
+
+WEEK 8 TASK: .py
+
+Task 8 Description:
+
+Method:
+
+
+Conclusion:
+
+
+References:
