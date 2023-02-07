@@ -15,12 +15,13 @@ Method:
 2. 3 subfolders were created under pands: a. mywork  b. pands-course-material  c. pands-problem-sheet
 3. helloworld.py file was created under pands-problem-sheet. Comments were added to describe the code.
 4. Code format followed that of https://www.w3schools.com/python/.
-5. Python print () function was used to create a string output onto the screen (https://www.w3schools.com/python/ref_func_print.asp)
-6. Python quote function (https://www.geeksforgeeks.org/single-and-double-quotes-python/#:~:text=Generally%2C%20double%20quotes%20are%20used,one%20type%20over%20the%20other)
-7. Python bracket function indicates that round brackets are generally used in function (https://stackoverflow.com/questions/30700603/different-meanings-of-brackets-in-python)
+5. Python print () function was used to create a string output onto the screen (https://www.w3schools.com/python/ref_func_print.asp).
+6. Python quote function was used for string representation (https://www.geeksforgeeks.org/single-and-double-quotes-python/#:~:text=Generally%2C%20double%20quotes%20are%20used,one%20type%20over%20the%20other).
+7. Python bracket function indicates that round brackets are generally used in function (https://stackoverflow.com/questions/30700603/different-meanings-of-brackets-in-python).
 
 Conclusion:
-Python program that displays Hello World! was created, added, committed and pushed into 
+Python program that displays Hello World! was created, added, committed and pushed into https://github.com/nurbujang/pands-problem-sheet.git and submitted.
+
 References:
 https://www.w3schools.com/python/
 https://www.w3schools.com/python/ref_func_print.asp
@@ -30,10 +31,16 @@ WEEK 2 TASK: bank.py
 
 Task 2 Description:
 
+What it also entails:
 
-
+Method:
 
 noticed spacing between prompt and result, so (\n) was applied.
+Conclusion:
+
+References:
+
+
 
 
 
