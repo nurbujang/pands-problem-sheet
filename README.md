@@ -41,6 +41,7 @@ Method:
 1. Define and prompt amount1. Input is a string or text, so it had to be converted into numbers (https://www.freecodecamp.org/news/python-convert-string-to-int-how-to-cast-a-string-in-python/). The same was done for amount2.
 2. I divided the sum with 100 using (/) to divide it into a float so that it is printed in euro and cent amount as shown in https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp.
 3. According to https://realpython.com/python-string-formatting/ and https://realpython.com/python-f-strings/, f or f-strings means formatted string literals, which is a new string formatting approach in Python 3.6 and above. it is not a function. I also noticed spacing between prompt and result, so (\n) was applied.
+4. The program was then tested using other amounts and consistently displayed the correct sum.
 
 Conclusion:
 This output was achieved in the VS Code terminal:
