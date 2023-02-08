@@ -20,7 +20,7 @@ Method:
 7. Python bracket function indicates that round brackets are generally used in function (4).
 
 Conclusion:
-Python program that displays Hello World! in the terminal was created, added, committed and pushed into https://github.com/nurbujang/pands-problem-sheet.git and submitted.
+Python program that displays Hello World! in the terminal was created, added, committed and pushed into https://github.com/nurbujang/pands-problem-sheet and submitted.
 
 References:
 1. https://www.w3schools.com/python/
@@ -51,7 +51,11 @@ Enter amount2(in cent): 180
 
 The sum of these is €2.45
 
-The same output with the correct sum can be derived when different amounts are entered at prompts.
+The same output with the correct sum can be derived when different amounts are entered at prompts, eg:
+Enter amount1(in cent): 53
+Enter amount2(in cent): 173
+
+The sum of these is €2.26
 
 References:
 1. https://www.freecodecamp.org/news/python-convert-string-to-int-how-to-cast-a-string-in-python/
