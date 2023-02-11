@@ -79,14 +79,31 @@ Extra:
 To modify the program to deal with account numbers of any length (a vague requirement, comment my assumptions)
 
 ### Method:
-1. 
+1. Define and prompt the 10 digit account number. Remember that the account number is a string.
+2. For the first method in Question 1, we slice string to replace the first 6 numbers with X and display only the last 4 digits of the account number following (1) and (2). The replacement is defined as XXXXXX and the syntax used is replace(old, new, count), where old=digits we want to replace, new=what we want to replace it with, and count=is the number of times we want to replace the specified substring. I set it to 1, so it won't replace anything but the first occurrence of the substring.
+3. For the second method in Question 1, the length function, len(), is used for this program as shown in (3) and (4). First I defined and prompted for account number. I then sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string becomes N(X). This means that all of the numbers but the last 4 are replaced by "X". We display only the last 4 of the input string and print out an output of replacement+display.
+4. The account number length is unknown in Question 2. The length function, len(), is again used for this program as shown in (3) and (4). 
+5. 
+
 
 ### Conclusion:
-
+1. This output was achieved using 2 different programs:
+Please enter an 10 digit account number: 1234567890
+XXXXXX7890
+2. For an account number with unknown length which displays only the last 4 digits and replaced the others with X, this output was achieved:
+Please enter your account number: 99887766554433221100
+XXXXXXXXXXXXXXXX1100
+3. Different account number lengths could be due to:
+the date when the account was opened, ie. older accounts are shorter, newer accounts are longer
+the country where the account was opened, eg: Ireland uses IBAN, USA uses ABA routing transit numbers, Malaysia uses SWIFT code.
+branch code/sort code
+routing codes
 
 ### References:
-1. 
-
+1. https://www.w3schools.com/python/python_strings_slicing.asp
+2. https://dirask.com/posts/Python-replace-first-3-characters-in-string-j8g65p
+3. https://www.w3schools.com/python/ref_func_len.asp
+4. https://stackoverflow.com/questions/49701989/python-replace-character-range-in-a-string-with-new-string
 
 ## **WEEK 4 TASK: .py** 
 
