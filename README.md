@@ -83,8 +83,6 @@ To modify the program to deal with account numbers of any length (a vague requir
 2. For the first method in Question 1, we sliced the string to replace the first 6 numbers with X and display only the last 4 digits of the account number following (1) and (2). The replacement is defined as XXXXXX and the syntax used is replace(old, new, count), where old=digits we want to replace, new=what we want to replace it with, and count=how many times we want to perform the replacements. We set it to 1, so it won't replace anything but the first occurrence of the substring.
 3. For the second method in Question 1, the length function, len() was used for this program as shown in (3) and (4). First we defined and prompted for account number. We then sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 are replaced by "X". We displayed only the last 4 of the input string and printed out an output of replacement+display.
 4. The account number length is unknown in Question 2. The length function, len(), is again used for this program as shown in (3) and (4). 
-5. 
-
 
 ### Conclusion:
 1. This output was achieved using 2 different programs:
