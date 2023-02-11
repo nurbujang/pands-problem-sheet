@@ -13,21 +13,23 @@
 
 # Extra: To modify the program to deal with account numbers of any length (a vague requirement, comment my assumptions)
 
+# Question 1
 # create prompt to enter a 10-digit account number
 # Remember the account number is a string
 input_string=input("Please enter an 10 digit account number: ")
 
 # slice string to replace the first 6 numbers with X and display only the last 4 digits of the account number
-# replacement="XXXXXX"
-# output_string=input_string.replace(input_string[0:6],replacement,1)
-# print(output_string)
+replacement="XXXXXX"
+output_string=input_string.replace(input_string[0:6],replacement,1) # SYNTAX replace(old,new,count), where count is where you can limit the number of replacements to perform
+print(output_string)
 
 # or
-replacements=(len(input_string)-4)*"X"
-display=input_string[-4:]
-print(replacements+display)
 
+# replacements=(len(input_string)-4)*"X" # replace all but the last 4 with "X"
+# display=input_string[-4:] # display the last 4 digits
+# print(replacements+display)
 
+# Question 2
 # To modify the program to deal with account numbers of any length (a vague requirement, comment my assumptions)
 input_string=input("Please enter your account number: ")
 # slice the string into 2: replacement and display
