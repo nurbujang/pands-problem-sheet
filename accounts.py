@@ -21,7 +21,7 @@ input_string=input("Please enter an 10 digit account number: ")
 # Method 1
 # slice string to replace the first 6 numbers with X and display only the last 4 digits of the account number
 replacement="XXXXXX"
-output_string=input_string.replace(input_string[0:6],replacement,1) # SYNTAX replace(old,new,count), where count is where you can limit the number of replacements to perform
+output_string=input_string.replace(input_string[0:6],replacement,1) # SYNTAX replace(old,new,count), where count is how many times we want to perform the replacements
 print(output_string)
 
 # or
