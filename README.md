@@ -88,13 +88,16 @@ To modify the program to deal with account numbers of any length (a vague requir
 1. This output was achieved using 2 different programs:
 Please enter an 10 digit account number: 1234567890
 XXXXXX7890
-2. For an account number with unknown length which displays only the last 4 digits and replaced the others with X, this output was achieved:
+2. For an account number with unknown length which displays only the last 4 digits and replaces the others with X, this output was achieved:
 Please enter your account number: 99887766554433221100
 XXXXXXXXXXXXXXXX1100
 3. Different account number lengths could be due to:
+
 the date when the account was opened, ie. older accounts are shorter, newer accounts are longer
+
 the country where the account was opened, eg: Ireland uses IBAN, USA uses ABA routing transit numbers, Malaysia uses SWIFT code.
 branch code/sort code
+
 routing codes
 
 ### References:
