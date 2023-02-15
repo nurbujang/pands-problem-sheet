@@ -85,7 +85,7 @@ To modify the program to deal with account numbers of any length (a vague requir
 4. The account number length is unknown in Question 2. The length function, len(), is again used for this program as shown in (3) and (4). First I defined and prompted for account number of any length. I then sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 were replaced by "X". I displayed only the last 4 of the input string and printed out an output of replacement+display.
 
 ### Conclusion:
-1. This output was achieved using 2 different programs:
+1. This output was achieved using 2 different programs, the first uses replace function and the second uses replace and length functions:
 Please enter an 10 digit account number: 1234567890
 XXXXXX7890
 2. For an account number with unknown length which displays only the last 4 digits and replaces the others with X, this output was achieved:
