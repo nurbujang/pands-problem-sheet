@@ -106,10 +106,16 @@ c. routing codes
 3. https://www.w3schools.com/python/ref_func_len.asp
 4. https://stackoverflow.com/questions/49701989/python-replace-character-range-in-a-string-with-new-string
 
-## **WEEK 4 TASK: .py** 
+## **WEEK 4 TASK: collatz.py** 
 
-### Task 4 Description:
+### Task 4 Description: 
+This task is to write a python program called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. 
+At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
 
+Example of it running:
+$ python collatz.py
+Please enter a positive integer: 10
+10 5 16 8 4 2 1
 
 ### Method:
 
