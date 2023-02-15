@@ -15,7 +15,7 @@ b. Making entries in README using markdown.
 2. 3 subfolders were created under pands: a. mywork  b. pands-course-material  c. pands-problem-sheet
 3. helloworld.py file was created under pands-problem-sheet. Comments were added to describe the code.
 4. Code format followed that of (1).
-5. Python print () function was used to create a string output onto the screen (2).
+5. Python print() function was used to create a string output onto the screen (2).
 6. Python quote function was used for string representation (3).
 7. Python bracket function indicates that round brackets are generally used in function (4).
 
@@ -88,7 +88,7 @@ To modify the program to deal with account numbers of any length (a vague requir
 1. This output was achieved using 2 different programs, the first uses replace function and the second uses replace and length functions:
 Please enter an 10 digit account number: 1234567890
 XXXXXX7890
-2. For an account number with unknown length which displays only the last 4 digits and replaces the others with X, this output was achieved:
+2. For an account number with unknown length which displays only the last 4 digits and replaces the others with X, this output was achieved using replace and length functions:
 Please enter your account number: 99887766554433221100
 XXXXXXXXXXXXXXXX1100
 3. Different account number lengths could be due to:
