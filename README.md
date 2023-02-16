@@ -1,12 +1,12 @@
 # pands-problem-sheet
 Problem sheet for Programming and Scripting
 
-## ***WEEK 1 TASK: helloworld.py*** 
+## **WEEK 1 TASK: helloworld.py**
 
 ### Task 1 Description:
-1. To create a python program that displays Hello World! when it is run then add, commit and push it into the pands-problem-sheet repository.
-2. To create a Github account containing two repositories: mywork (personal use) and pands-problem-sheet (for assessment) 
-3. To make entries in README using markdown. 
+*1. To create a python program that displays Hello World! when it is run then add, commit and push it into the pands-problem-sheet repository*
+*2. To create a Github account containing two repositories: mywork (personal use) and pands-problem-sheet (for assessment)* 
+*3. To make entries in README using markdown*
 
 ### Method:
 1. Using VS Code, pands folder was created under the computer directory.
@@ -26,15 +26,15 @@ Python program that displays Hello World! in the terminal was created, added, co
 3. https://www.geeksforgeeks.org/single-and-double-quotes-python/#:~:text=Generally%2C%20double%20quotes%20are%20used,one%20type%20over%20the%20other
 4. https://stackoverflow.com/questions/30700603/different-meanings-of-brackets-in-python
 
-## ***WEEK 2 TASK: bank.py*** 
+## **WEEK 2 TASK: bank.py** 
 
 ### Task 2 Description:
-Banks store currency figures as integers (usually in cent) to avoid rounding errors. This task is to create a program that should prompt the user and read in two money amounts (in cent), then add the two amounts and finally print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
+*Banks store currency figures as integers (usually in cent) to avoid rounding errors. This task is to create a program that should prompt the user and read in two money amounts (in cent), then add the two amounts and finally print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.*
 
-Enter amount1(in cent): 65
-Enter amount2(in cent): 180
+*Enter amount1(in cent): 65
+Enter amount2(in cent): 180*
 
-The sum of these is €2.45
+*The sum of these is €2.45*
 
 ### Method:
 1. First is to define and prompt amount1. Input is a string or text, so it had to be converted into numbers (1). The same was done for amount2.
@@ -62,19 +62,19 @@ The sum of these is €2.26
 4. https://realpython.com/python-f-strings/
 
 
-## ***WEEK 3 TASK: accounts.py*** 
+## **WEEK 3 TASK: accounts.py** 
 
 ### Task 3 Description: 
-Bank account numbers can be stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs). This task is to write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs). 
+*Bank account numbers can be stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs). This task is to write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).* 
 
-$ python accounts.py
+*$ python accounts.py*
 
-Please enter an 10 digit account number: 1234567890
+*Please enter an 10 digit account number: 1234567890*
 
-XXXXXX7890
+*XXXXXX7890*
 
-Extra:
-To modify the program to deal with account numbers of any length (a vague requirement, comment my assumptions)
+*Extra:
+To modify the program to deal with account numbers of any length (a vague requirement, comment my assumptions)*
 
 ### Method:
 1. First, I defined and prompted the 10 digit account number. Remember that the account number is a string.
@@ -101,19 +101,19 @@ XXXXXXXXXXXXXXXX1100
 3. https://www.w3schools.com/python/ref_func_len.asp
 4. https://stackoverflow.com/questions/49701989/python-replace-character-range-in-a-string-with-new-string
 
-## ***WEEK 4 TASK: collatz.py***
+## **WEEK 4 TASK: collatz.py**
 
 ### Task 4 Description: 
-This task is to write a python program called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.  
-At each step, to calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Also, to have the program end if the current value is one.
+*This task is to write a python program called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.  
+At each step, to calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Also, to have the program end if the current value is one.*
 
-Example of it running:
+*Example of it running:*
 
-$ python collatz.py
+*$ python collatz.py*
 
-Please enter a positive integer: 10
+*Please enter a positive integer: 10*
 
-10 5 16 8 4 2 1
+*10 5 16 8 4 2 1*
 
 ### Method:
 
@@ -125,10 +125,10 @@ Please enter a positive integer: 10
 
 
 
-## ***WEEK 5 TASK: .py*** 
+## **WEEK 5 TASK: .py** 
 
 ### Task 5 Description:
-
+* *
 
 ### Method:
 
@@ -140,10 +140,10 @@ Please enter a positive integer: 10
 
 
 
-## ***WEEK 6 TASK: .py*** 
+## **WEEK 6 TASK: .py** 
 
 ### Task 6 Description:
-
+* *
 
 ### Method:
 
@@ -155,10 +155,10 @@ Please enter a positive integer: 10
 
 
 
-## ***WEEK 7 TASK: .py*** 
+## **WEEK 7 TASK: .py** 
 
 ### Task 7 Description:
-
+* *
 
 ### Method:
 
@@ -170,10 +170,10 @@ Please enter a positive integer: 10
 
 
 
-## ***WEEK 8 TASK: .py*** 
+## **WEEK 8 TASK: .py** 
 
 ### Task 8 Description:
-
+* *
 
 ### Method:
 
