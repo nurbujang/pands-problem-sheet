@@ -90,10 +90,13 @@ XXXXXX7890
 Please enter your account number: 99887766554433221100
 XXXXXXXXXXXXXXXX1100
 3. Different account number lengths could be due to:
-1. the date when the account was opened, ie. older accounts are shorter, newer accounts are longer
-2. the country where the account was opened, eg: Ireland uses IBAN, USA uses ABA routing transit numbers, Malaysia uses SWIFT code.
-3. branch code/sort code
-4. routing codes
+a. the date when the account was opened, ie. older accounts are shorter, newer accounts are longer
+
+b. the country where the account was opened, eg: Ireland uses IBAN, USA uses ABA routing transit numbers, Malaysia uses SWIFT code.
+
+c. branch code/sort code
+
+d. routing codes
 
 ### References:
 1. https://www.w3schools.com/python/python_strings_slicing.asp
