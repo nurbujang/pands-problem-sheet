@@ -5,7 +5,9 @@ Problem sheet for Programming and Scripting
 
 ### Task 1 Description:
 *1. To create a python program that displays Hello World! when it is run then add, commit and push it into the pands-problem-sheet repository*
+
 *2. To create a Github account containing two repositories: mywork (personal use) and pands-problem-sheet (for assessment)* 
+
 *3. To make entries in README using markdown*
 
 ### Method:
