@@ -1,7 +1,7 @@
 # pands-problem-sheet
 Problem sheet for Programming and Scripting
 
-## **WEEK 1 TASK: helloworld.py** 
+## ***WEEK 1 TASK: helloworld.py*** 
 
 ### Task 1 Description:
 1. To create a python program that displays Hello World! when it is run then add, commit and push it into the pands-problem-sheet repository.
@@ -26,7 +26,7 @@ Python program that displays Hello World! in the terminal was created, added, co
 3. https://www.geeksforgeeks.org/single-and-double-quotes-python/#:~:text=Generally%2C%20double%20quotes%20are%20used,one%20type%20over%20the%20other
 4. https://stackoverflow.com/questions/30700603/different-meanings-of-brackets-in-python
 
-## **WEEK 2 TASK: bank.py** 
+## ***WEEK 2 TASK: bank.py*** 
 
 ### Task 2 Description:
 Banks store currency figures as integers (usually in cent) to avoid rounding errors. This task is to create a program that should prompt the user and read in two money amounts (in cent), then add the two amounts and finally print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
@@ -62,7 +62,7 @@ The sum of these is €2.26
 4. https://realpython.com/python-f-strings/
 
 
-## **WEEK 3 TASK: accounts.py** 
+## ***WEEK 3 TASK: accounts.py*** 
 
 ### Task 3 Description: 
 Bank account numbers can be stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs). This task is to write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs). 
@@ -101,7 +101,7 @@ XXXXXXXXXXXXXXXX1100
 3. https://www.w3schools.com/python/ref_func_len.asp
 4. https://stackoverflow.com/questions/49701989/python-replace-character-range-in-a-string-with-new-string
 
-## **WEEK 4 TASK: collatz.py** 
+## ***WEEK 4 TASK: collatz.py***
 
 ### Task 4 Description: 
 This task is to write a python program called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.  
@@ -125,7 +125,7 @@ Please enter a positive integer: 10
 
 
 
-## **WEEK 5 TASK: .py** 
+## ***WEEK 5 TASK: .py*** 
 
 ### Task 5 Description:
 
@@ -140,7 +140,7 @@ Please enter a positive integer: 10
 
 
 
-## **WEEK 6 TASK: .py** 
+## ***WEEK 6 TASK: .py*** 
 
 ### Task 6 Description:
 
@@ -155,7 +155,7 @@ Please enter a positive integer: 10
 
 
 
-## **WEEK 7 TASK: .py** 
+## ***WEEK 7 TASK: .py*** 
 
 ### Task 7 Description:
 
@@ -170,7 +170,7 @@ Please enter a positive integer: 10
 
 
 
-## **WEEK 8 TASK: .py** 
+## ***WEEK 8 TASK: .py*** 
 
 ### Task 8 Description:
 
