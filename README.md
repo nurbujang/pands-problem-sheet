@@ -37,7 +37,7 @@ Enter amount2(in cent): 180
 The sum of these is €2.45
 
 ### Method:
-1. Define and prompt amount1. Input is a string or text, so it had to be converted into numbers (1). The same was done for amount2.
+1. First is to define and prompt amount1. Input is a string or text, so it had to be converted into numbers (1). The same was done for amount2.
 2. I divided the sum with 100 using (/) to divide it into a float so that it is printed in euro and cent amount as shown in (2).
 3. According to (3) and (4), f or f-strings means formatted string literals, which is a new string formatting approach in Python 3.6 and above. it is not a function. I also noticed spacing between prompt and result, so (\n) was applied.
 4. The program was then tested using other amounts and consistently displayed the correct sum.
@@ -77,7 +77,7 @@ Extra:
 To modify the program to deal with account numbers of any length (a vague requirement, comment my assumptions)
 
 ### Method:
-1. Define and prompt the 10 digit account number. Remember that the account number is a string.
+1. First, I defined and prompted the 10 digit account number. Remember that the account number is a string.
 2. For the first method in Question 1, I sliced the string to replace the first 6 numbers with X and display only the last 4 digits of the account number following (1) and (2). The replacement is defined as "XXXXXX" and the syntax used is replace(old, new, count), where old=digits I want to replace, new=what I want to replace it with, and count=how many times I want to perform the replacements. I set it to 1, so it won't replace anything but the first occurrence of the substring.
 3. For the second method in Question 1, the length function, len() was used for this program as shown in (3) and (4). First I defined and prompted for  the account number. I then sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 were replaced by "X". I displayed only the last 4 of the input string and printed out an output of replacement+display.
 4. The account number length is unknown in Question 2. The length function, len(), is again used for this program as shown in (3) and (4). First I defined and prompted for account number of any length. I then sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 were replaced by "X". I displayed only the last 4 of the input string and printed out an output of replacement+display.
@@ -90,12 +90,9 @@ XXXXXX7890
 Please enter your account number: 99887766554433221100
 XXXXXXXXXXXXXXXX1100
 3. Different account number lengths could be due to:
-
 a. the date when the account was opened, ie. older accounts are shorter, newer accounts are longer
-
 b. the country where the account was opened, eg: Ireland uses IBAN, USA uses ABA routing transit numbers, Malaysia uses SWIFT code.
 branch code/sort code
-
 c. routing codes
 
 ### References:
@@ -107,8 +104,8 @@ c. routing codes
 ## **WEEK 4 TASK: collatz.py** 
 
 ### Task 4 Description: 
-This task is to write a python program called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation. 
-At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
+This task is to write a python program called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.  
+At each step, to calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Also, to have the program end if the current value is one.
 
 Example of it running:
 
