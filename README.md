@@ -91,11 +91,13 @@ XXXXXX7890
 2. For an account number with unknown length which displays only the last 4 digits and replaces the others with X, this output was achieved using replace and length functions:
 Please enter your account number: 99887766554433221100
 XXXXXXXXXXXXXXXX1100
-3. Different account number lengths could be due to:
+3. I assume that different account number lengths could be due to:
+- different banks
 - the date when the account was opened, ie. older accounts are shorter, newer accounts are longer
 - the country where the account was opened, eg: Ireland uses IBAN, USA uses ABA routing transit numbers, Malaysia uses SWIFT code.
 - branch code/sort code
 - routing codes
+The use of this program is not only limited to banks, but other consumers which requires bank account numbers, such as money transfer websites which is used globally. So the program should be able to accommodate any account length from banks around the world, which can be up to 34 characters.
 
 ### References:
 1. https://www.w3schools.com/python/python_strings_slicing.asp
