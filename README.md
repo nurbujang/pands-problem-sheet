@@ -34,7 +34,9 @@ Python program that displays Hello World! in the terminal was created, added, co
 *Banks store currency figures as integers (usually in cent) to avoid rounding errors. This task is to create a program that should prompt the user and read in two money amounts (in cent), then add the two amounts and finally print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.*
 
 *Enter amount1(in cent): 65
+
 Enter amount2(in cent): 180*
+
 
 *The sum of these is €2.45*
 
