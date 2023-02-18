@@ -119,7 +119,7 @@ At each step, to calculate the next value by taking the current value and, if it
 
 *Please enter a positive integer: 10*
 
-*10 5 16 8 4 2 1*      *notice the spaces between the numbers, use builtin*
+*10 5 16 8 4 2 1*      *(notice the spaces between the numbers, use builtin)*
 
 ### Method:
 
