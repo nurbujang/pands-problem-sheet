@@ -144,8 +144,9 @@ At each step, to calculate the next value by taking the current value and, if it
 
 
 ### References:
-
-
+1.
+2.
+3.
 
 ## **WEEK 6 TASK: .py** 
 
@@ -160,8 +161,9 @@ At each step, to calculate the next value by taking the current value and, if it
 
 
 ### References:
-
-
+1.
+2.
+3.
 
 ## **WEEK 7 TASK: .py** 
 
@@ -176,8 +178,9 @@ At each step, to calculate the next value by taking the current value and, if it
 
 
 ### References:
-
-
+1.
+2.
+3.
 
 ## **WEEK 8 TASK: .py** 
 
@@ -192,3 +195,6 @@ At each step, to calculate the next value by taking the current value and, if it
 
 
 ### References:
+1.
+2.
+3.
