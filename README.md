@@ -135,6 +135,7 @@ At each step, to calculate the next value by taking the current value and, if it
 
 ### Task 5 Description:
 * *
+* *
 
 ### Method:
 
@@ -150,7 +151,8 @@ At each step, to calculate the next value by taking the current value and, if it
 
 ### Task 6 Description:
 * *
-
+* * 
+* 
 ### Method:
 
 
@@ -165,6 +167,7 @@ At each step, to calculate the next value by taking the current value and, if it
 
 ### Task 7 Description:
 * *
+* * 
 
 ### Method:
 
@@ -180,6 +183,7 @@ At each step, to calculate the next value by taking the current value and, if it
 
 ### Task 8 Description:
 * *
+* * 
 
 ### Method:
 
