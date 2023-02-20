@@ -128,7 +128,10 @@ At each step, to calculate the next value by taking the current value and, if it
 
 
 ### References:
-
+1.
+2.
+3. https://www.geeksforgeeks.org/python-sep-parameter-print/
+4. http://anh.cs.luc.edu/170/mynotes/sepend.html
 
 
 ## **WEEK 5 TASK: .py** 
