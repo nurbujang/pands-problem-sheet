@@ -15,10 +15,10 @@
 
 # Method 1
 # posint = int(input("Please enter a positive integer:"))
-# numbers=[]
-# numbers.append(posint)
+# numbers=[]                    # numbers will be in a list
+# numbers.append(posint)        # the first number to append
 # while posint != 1:
-#     temp_posint=None
+#     temp_posint=None          # for temporary storage bc we have to declare a variable somewhere
 #     if (posint %2) == 0:
 #         temp_posint=posint//2
 #         numbers.append(temp_posint)
@@ -26,25 +26,30 @@
 #     else:
 #         temp_posint=posint*3+1
 #         numbers.append(temp_posint)
-#     posint=temp_posint
+#     posint=temp_posint        # because it's a whole series/sequence
 
 # print(numbers)
 # but numbers appear in []
 
 # Method 2 - sep and without []
 posint = int(input("Please enter a positive integer:"))
-numbers=[]
-numbers.append(posint)
+numbers=[]                   # numbers will be in a list
+numbers.append(posint)       # the first number to append
 while posint != 1:
-    temp_posint=None
+    temp_posint=0    # or None, for temporary storage bc we have to declare a variable somewhere
     if (posint %2) == 0:
-        temp_posint=posint//2
+        temp_posint=int(posint/2)
         numbers.append(temp_posint)
         
     else:
-        temp_posint=posint*3+1
+        temp_posint=int(posint*3+1)
         numbers.append(temp_posint)
-    posint=temp_posint
+    
+    posint=temp_posint      # because it's a whole series/sequence
 
 for number in numbers:
-    print("", number, sep=" ", end="")
+    print("", number, sep=" ", end=" ")
+
+
+
+
