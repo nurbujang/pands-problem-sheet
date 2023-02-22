@@ -128,10 +128,10 @@ At each step, to calculate the next value by taking the current value and, if it
 4. I used a while loop which will end when the value is 1, and assigned temp_posint as temporary storage because we have to declare a variable somewhere.
 5. If...Else was used (3) because it only has odd or even numbers. If the number is even, divide by 2 in integer form (4) and if odd, multiply by 3 and add 1 in integer form.
 6. The next number will be replaced by temp_posint, because it is a whole sequence of numbers.
-7. Finally the sequence of numbers was printed out with space between the numbers using separator sep=" ".
+7. Finally the sequence of numbers was printed out with space between the numbers using forseparator sep=" ".
 
 ### Conclusion:
-
+Two programs were written to get the output. However, the first resulted in the numbers displayed in []. Program 2 resulted in the desired output.
 
 ### References:
 1. https://www.w3schools.com/python/python_lists.asp
