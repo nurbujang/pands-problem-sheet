@@ -122,13 +122,15 @@ At each step, to calculate the next value by taking the current value and, if it
 *10 5 16 8 4 2 1*   *(notice the spaces between the numbers, use builtin, maybe separator sep="", end="" )*
 
 ### Method:
-
+1. I created a prompt to enter a positive integer as an integer
+2. The numbers were determined to be in a list as shown in (1).
+3. 
 
 ### Conclusion:
 
 
 ### References:
-1.
+1. https://www.w3schools.com/python/python_lists.asp
 2.
 3. https://www.geeksforgeeks.org/python-sep-parameter-print/
 4. http://anh.cs.luc.edu/170/mynotes/sepend.html
