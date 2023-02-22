@@ -131,7 +131,7 @@ At each step, to calculate the next value by taking the current value and, if it
 7. Finally the sequence of numbers was printed out with space between the numbers using forseparator sep=" " according to (5) and (6).
 
 ### Conclusion:
-Two programs were written to get the output. However, the first resulted in the numbers displayed in []. Program 2 resulted in the desired output.
+Two programs were written to get the output. However, the first resulted in the numbers displayed in square brackets []. Program 2 resulted in the desired output.
 
 ### References:
 1. https://www.w3schools.com/python/python_lists.asp
