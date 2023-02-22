@@ -126,8 +126,9 @@ At each step, to calculate the next value by taking the current value and, if it
 2. The numbers were determined to be in a list as shown in (1).
 3. The output will contain a list of appended numbers (2).
 4. I used a while loop which will end when the value is 1, and assigned temp_posint as temporary storage because we have to declare a variable somewhere.
-5. If...Else was used (3) because it only has odd or even numbers.
-6. 
+5. If...Else was used (3) because it only has odd or even numbers. If the number is even, divide by 2 in integer form (4) and if odd, multiply by 3 and add 1 in integer form.
+6. The next number will be replaced by temp_posint, because it is a whole sequence of numbers.
+7. Finally the sequence of numbers was printed out with space between the numbers using separator sep=" ".
 
 ### Conclusion:
 
@@ -136,7 +137,7 @@ At each step, to calculate the next value by taking the current value and, if it
 1. https://www.w3schools.com/python/python_lists.asp
 2. https://realpython.com/python-append/
 3. https://www.w3schools.com/python/python_conditions.asp
-4. 
+4. https://www.w3schools.com/python/python_numbers.asp
 5. https://www.geeksforgeeks.org/python-sep-parameter-print/
 6. http://anh.cs.luc.edu/170/mynotes/sepend.html
 
