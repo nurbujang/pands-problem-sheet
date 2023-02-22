@@ -124,16 +124,21 @@ At each step, to calculate the next value by taking the current value and, if it
 ### Method:
 1. I created a prompt to enter a positive integer as an integer
 2. The numbers were determined to be in a list as shown in (1).
-3. 
+3. The output will contain a list of appended numbers (2).
+4. I used a while loop which will end when the value is 1, and assigned temp_posint as temporary storage because we have to declare a variable somewhere.
+5. If...Else was used (3) because it only has odd or even numbers.
+6. 
 
 ### Conclusion:
 
 
 ### References:
 1. https://www.w3schools.com/python/python_lists.asp
-2.
-3. https://www.geeksforgeeks.org/python-sep-parameter-print/
-4. http://anh.cs.luc.edu/170/mynotes/sepend.html
+2. https://realpython.com/python-append/
+3. https://www.w3schools.com/python/python_conditions.asp
+4. 
+5. https://www.geeksforgeeks.org/python-sep-parameter-print/
+6. http://anh.cs.luc.edu/170/mynotes/sepend.html
 
 
 ## **WEEK 5 TASK: .py** 
