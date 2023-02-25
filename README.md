@@ -86,7 +86,7 @@ To modify the program to deal with account numbers of any length (a vague requir
 3. For the second method in Question 1, the length function, len() was used for this program as shown in (3) and (4). First I defined and prompted for  the account number. I then sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 were replaced by "X". I displayed only the last 4 of the input string and printed out an output of replacement+display.
 4. The account number length is unknown in Question 2. The length function, len(), is again used for this program as shown in (3) and (4). First I defined and prompted for account number of any length. I then sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 were replaced by "X". I displayed only the last 4 of the input string and printed out an output of replacement+display.
 
-### Conclusion:
+### Conclusions:
 1. This output was achieved using 2 different programs, the first uses replace function and the second uses replace and length functions:
 Please enter an 10 digit account number: 1234567890
 XXXXXX7890
@@ -125,13 +125,13 @@ At each step, to calculate the next value by taking the current value and, if it
 1. I created a prompt to enter a positive integer as an integer.
 2. The numbers were determined to be in a list as shown in (1).
 3. The output will contain a list of appended numbers (2).
-4. I used a While loop which will end when the value is 1, and assigned temp_posint as temporary storage because we have to declare a variable somewhere.
+4. I used a While loop which will end when the value is 1, and assigned temp_posint as temporary storage because I have to declare a variable somewhere.
 5. If...Else was used (3) because it only has odd or even numbers. If the number is even, divide by 2 in integer form (4) and if odd, multiply by 3 and add 1, again in integer form.
 6. The next subsequent numbers will be replaced by temp_posint, because it is a whole sequence of numbers.
 7. Finally the sequence of numbers was printed out with space between the numbers using separator sep=" " according to (5) and (6).
 
 ### Conclusion:
-Two programs were written to get the output. However, the first resulted in the numbers displayed in square brackets []. Program 2 resulted in the desired output.
+Two programs were written to get the output. However, the first resulted in the numbers displayed in square brackets []. Program 2 resulted in the desired output using separator.
 
 ### References:
 1. https://www.w3schools.com/python/python_lists.asp
