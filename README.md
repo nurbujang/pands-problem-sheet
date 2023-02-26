@@ -156,7 +156,7 @@ Yes, unfortunately today is a weekday.
 
 $ python weekday.py
 
-It is the weekend, yay! *
+It is the weekend, yay!
 
 
 ### Method:
