@@ -145,8 +145,20 @@ Two programs were written to get the output. However, the first resulted in the 
 ## **WEEK 5 TASK: .py** 
 
 ### Task 5 Description:
-* *
-* *
+*The task is to write a program that outputs whether or not today is a weekday. (The program should be called weekday.py). where I will need to search the web to find how you work out what day it is).
+An example of running this program on a Thursday is given below.
+
+$ python weekday.py
+
+Yes, unfortunately today is a weekday.
+
+
+*An example of running it on a Saturday is as follows:*
+
+$ python weekday.py
+
+It is the weekend, yay! *
+
 
 ### Method:
 
