@@ -145,8 +145,7 @@ Two programs were written to get the output. However, the first resulted in the 
 ## **WEEK 5 TASK: .py** 
 
 ### Task 5 Description:
-*The task is to write a program that outputs whether or not today is a weekday. (The program should be called weekday.py). where I will need to search the web to find how you work out what day it is).
-An example of running this program on a Thursday is given below.
+*The task is to write a program that outputs whether or not today is a weekday. (The program should be called weekday.py). where I will need to search the web to find how I work out what day it is). An example of running this program on a Thursday is given below.*
 
 $ python weekday.py
 
@@ -175,10 +174,10 @@ It is the weekend, yay! *
 
 ### Task 6 Description:
 *The task is to write a program that takes a positive floating-point number as input and outputs an approximation of its square root.*
-*I am to create a function called <tt>sqrt</tt> that does this. We were asked to create our own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).*
-*This is to demonstrate that we can research and code a process (If you really needed the square root you would use one of the above methods). 
+*I am to create a function called <tt>sqrt</tt> that does this. I was asked to create my own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).*
+*This is to demonstrate that I can research and code a process (If I really needed the square root I would use one of the above methods). 
 It was suggested that we look at the newton method at estimating square roots. 
-This is a more difficult task than some of the others, but will be marked equally, so only do as much work on this as we feel comfortable.*
+This is a more difficult task than some of the others, but will be marked equally, so only do as much work on this as I feel comfortable.*
 
 $ python squareroot.py
 Please enter a positive number: 14.5
