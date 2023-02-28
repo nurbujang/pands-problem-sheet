@@ -175,9 +175,10 @@ It is the weekend, yay!
 ### Task 6 Description:
 *The task is to write a program that takes a positive floating-point number as input and outputs an approximation of its square root.*
 *I am to create a function called <tt>sqrt</tt> that does this. I was asked to create my own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).*
-*This is to demonstrate that I can research and code a process (If I really needed the square root I would use one of the above methods). 
-It was suggested that I look at the newton method at estimating square roots. 
-This is a more difficult task than some of the others, but will be marked equally, so I will only do as much work on this as I feel comfortable.*
+*This is to demonstrate that I can research and code a process (If I really needed the square root, I would use one of the above methods). 
+It was suggested that I look at the newton method at estimating square roots.*
+
+*This is a more difficult task than some of the others, but will be marked equally, so I will only do as much work on this as I feel comfortable.*
 
 $ python squareroot.py
 
