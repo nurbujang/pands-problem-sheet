@@ -171,7 +171,7 @@ It is the weekend, yay!
 2.
 3.
 
-## **WEEK 6 TASK: .py** 
+## **WEEK 6 TASK: squareroot.py** 
 
 ### Task 6 Description:
 *The task is to write a program that takes a positive floating-point number as input and outputs an approximation of its square root.*
