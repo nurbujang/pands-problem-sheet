@@ -143,7 +143,7 @@ Two programs were written to get the output. However, the first resulted in the 
 6. http://anh.cs.luc.edu/170/mynotes/sepend.html
 
 
-## **WEEK 5 TASK: .py** 
+## **WEEK 5 TASK: weekday.py** 
 
 ### Task 5 Description:
 *The task is to write a program that outputs whether or not today is a weekday. The program should be called weekday.py, where I will need to search the web to find how I work out what day it is. An example of running this program on a Thursday is given below.*
