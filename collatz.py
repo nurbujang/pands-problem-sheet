@@ -31,7 +31,7 @@
 # print(numbers)
 # but numbers appear in []
 
-# Method 2 - sep and without []
+# Method 2 - using sep and without []
 posint = int(input("Please enter a positive integer:"))
 numbers=[]                   # numbers will be in a list
 numbers.append(posint)       # the first number to append
@@ -45,7 +45,7 @@ while posint != 1:
         temp_posint=int(posint*3+1)
         numbers.append(temp_posint)
     
-    posint=temp_posint      # because it's a whole series/sequence
+    posint=temp_posint      # because it's a whole series/sequence of numbers
 
 for number in numbers:
     print("", number, sep=" ", end=" ")
