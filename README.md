@@ -162,6 +162,8 @@ It is the weekend, yay!
 
 ### Method:
 1. I used (1) to find out how to work out what day it is and decided to use module datetime (2).
+2. w
+3. isoweekday (4)
 
 ### Conclusion:
 
@@ -170,6 +172,7 @@ It is the weekend, yay!
 1. https://pynative.com/python-get-the-day-of-week/  
 2. https://docs.python.org/3/library/datetime.html#module-datetime
 3.
+4. https://docs.python.org/3/library/datetime.html#datetime.date.isoweekday
 
 ## **WEEK 6 TASK: squareroot.py** 
 
