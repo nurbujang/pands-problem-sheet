@@ -189,15 +189,17 @@ The square root of 14.5 is approx. 3.8.
 
  
 ### Method:
-
+1. Newton method (1-4).
+2. 
 
 ### Conclusion:
 
 
 ### References:
-1.
-2.
-3.
+1. https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+2. https://thirumalai2024.medium.com/python-program-to-find-square-root-of-the-number-using-newtons-method-937c0e732756
+3. https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
+4. https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
 
 ## **WEEK 7 TASK: .py** 
 
