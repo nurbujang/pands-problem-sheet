@@ -179,7 +179,7 @@ It is the weekend, yay!
 
 ### Task 6 Description:
 *The task is to write a program that takes a positive floating-point number as input and outputs an approximation of its square root.*
-*I am to create a function called <tt>sqrt</tt> that does this. I was asked to create my own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x). It was suggested that I look at the newton method at estimating square roots. This is to demonstrate that I can research and code a process (If I really needed the square root, I would use one of the above methods).*
+*I am to create a function called <tt>sqrt</tt> that does this. I was asked to create my own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x). The newton method at estimating square roots was suggested.*
 
 $ python squareroot.py
 
@@ -189,8 +189,9 @@ The square root of 14.5 is approx. 3.8.
 
  
 ### Method:
-1. Newton method (1-4).
-2. 
+1. Newton method (1-5).
+2. range (6)
+3. for loop (7)
 
 ### Conclusion:
 
@@ -198,8 +199,11 @@ The square root of 14.5 is approx. 3.8.
 ### References:
 1. https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 2. https://thirumalai2024.medium.com/python-program-to-find-square-root-of-the-number-using-newtons-method-937c0e732756
-3. https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
-4. https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
+3. https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
+4. https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
+5. https://tutorialsinhand.com/Articles/python-program-to-find-square-root-of-a-number-using-newton-square-root-formula.aspx
+6. https://www.w3schools.com/python/ref_func_range.asp
+7. https://www.w3schools.com/python/python_for_loops.asp
 
 ## **WEEK 7 TASK: .py** 
 
