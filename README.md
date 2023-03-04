@@ -182,8 +182,6 @@ It is the weekend, yay!
 *This is to demonstrate that I can research and code a process (If I really needed the square root, I would use one of the above methods). 
 It was suggested that I look at the newton method at estimating square roots.*
 
-*This is a more difficult task than some of the others, but will be marked equally, so I will only do as much work on this as I feel comfortable.*
-
 $ python squareroot.py
 
 Please enter a positive number: 14.5
