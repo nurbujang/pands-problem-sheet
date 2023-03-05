@@ -19,7 +19,7 @@ import datetime
 weekday=datetime.datetime.today().isoweekday() # module.class.argument.function within the datetime module
 # use if else because it's either weekday or weekend only
 if weekday < 6:   # in isoweekday, Mon-Fri are designated as 1-5
-    print("Yes, unfortunately today is a weekday")
+    print("Yes, unfortunately today is a weekday.")
 else:  # in isoweekday, weekends, Sat is 6, Sun is 7
     print("It is the weekend, yay!")
 
