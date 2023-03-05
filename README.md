@@ -166,7 +166,7 @@ It is the weekend, yay!
 3. I used conditions If, else because it only involved 2 situation: weekday or weekend. If the numbers are <6, then it would output "Yes, unfortunately today is a weekday. Or else, it would output "It is the weekend, yay!".
 
 ### Conclusion:
-The program outputs "Yes, unfortunately today is a weekday." on Monday to Friday and "It is the weekend, yay!" on the weekends.
+The program outputs "Yes, unfortunately today is a weekday." from Monday to Friday and "It is the weekend, yay!" on the weekends.
 
 ### References:
 1. https://pynative.com/python-get-the-day-of-week/  
@@ -192,7 +192,7 @@ The square root of 14.5 is approx. 3.8.
 1. I researched square root approximation using the Newton method (1-5) and decided to use (5) because it is simple and elegant.
 2. First, I created a prompt to enter a prompt that will take in a float.
 3. Then I created a function with one argument (flonum) according to (6) to follow the formula newtsqrt = 0.5*(guess+(flonum/guess)), let flonum be any number, and guess is the approximation of the square root of flonum. I also declared the variables in the formula.
-4. I used the While loop (7) to get the initial and better approximations of the square root and returned the number rounded up to 1 decimal point (8).
+4. I used the While loop (7) to get the initial and better approximations of the square root and returned the final number rounded up to 1 decimal point (8).
 5. Finally I called the function to print out the number and it's square root as shown in (6).
 
 ### Conclusion:
