@@ -189,12 +189,14 @@ The square root of 14.5 is approx. 3.8.
 
  
 ### Method:
-1. Newton method (1-5).
-2. range (6)
-3. for loop (7)
+1. I researched square root approximation using the Newton method (1-5) and decided to use (5) because it is simple and elegant.
+2. First, I created a prompt to enter a prompt that will take in a float.
+3. Then I created a function with one argument (flonum) according to (6) to follow the formula newtsqrt = 0.5*(guess+(flonum/guess)), let flonum be any number, and guess is the approximation of the square root of flonum. I also declared the variables in the formula.
+4. I used the While loop (7) to get the initial and better approximations of the square root and returned the number rounded up to 1 decimal point (8).
+5. Finally I called the function to print out the number and it's square root as shown in (6).
 
 ### Conclusion:
-
+The program outputs the square root approximation of a positive floating-point number using the Newton Method.
 
 ### References:
 1. https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
@@ -202,8 +204,9 @@ The square root of 14.5 is approx. 3.8.
 3. https://www.goeduhub.com/3398/python-program-to-find-the-square-root-number-newtons-method
 4. https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
 5. https://tutorialsinhand.com/Articles/python-program-to-find-square-root-of-a-number-using-newton-square-root-formula.aspx
-6. https://www.w3schools.com/python/ref_func_range.asp
-7. https://www.w3schools.com/python/python_for_loops.asp
+6. https://www.w3schools.com/python/python_functions.asp
+7. https://www.w3schools.com/python/python_while_loops.asp
+8. https://www.w3schools.com/python/ref_func_round.asp
 
 ## **WEEK 7 TASK: .py** 
 
