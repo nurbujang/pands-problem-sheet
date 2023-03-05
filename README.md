@@ -161,19 +161,19 @@ It is the weekend, yay!
 
 
 ### Method:
-1. I used (1) to find out how to work out what day it is and decided to use module datetime (2).
-2. w
-3. isoweekday 
-4.
+1. I searched (1) to find out how to work out what day it is and decided to use module datetime (2).
+2. First, I imported the datetime module. I then defined day of the week by inserting the module, class, argument and function isoweekday as shown in (3) and (4). In isoweekday, numbers 1 to 5 are designated to Monday to Friday, while Saturday is 6 and Sunday is 7.
+3. I used conditions If, else because it only involved 2 situation: weekday or weekend. If the numbers are <6, then it would output "Yes, unfortunately today is a weekday. Or else, it would output "It is the weekend, yay!".
 
 ### Conclusion:
-
+The program outputs "Yes, unfortunately today is a weekday." on Monday to Friday and "It is the weekend, yay!" on the weekends.
 
 ### References:
 1. https://pynative.com/python-get-the-day-of-week/  
 2. https://docs.python.org/3/library/datetime.html#module-datetime
-3.
+3. https://pythontic.com/datetime/datetime/isoweekday
 4. https://docs.python.org/3/library/datetime.html#datetime.date.isoweekday
+5. https://www.w3schools.com/python/python_conditions.asp
 
 ## **WEEK 6 TASK: squareroot.py** 
 
