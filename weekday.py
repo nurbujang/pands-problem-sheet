@@ -13,16 +13,13 @@
 
 # It is the weekend, yay!
 
-# import modules
+# import module
 import datetime
 
-# put weekdays as a tuple
-weekdays=("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
-
-weekday=datetime.datetime.today().isoweekday()
-if weekday < 6:
+weekday=datetime.datetime.today().isoweekday() # module.class.argument.function within datetime
+# use if else because it's either weekday or weekend only
+if weekday < 6:   # in isoweekday, Mon-Fri are designated as 1-5
     print("Yes, unfortunately today is a weekday")
-# weekend, Sat is 6, Sun is 7
-else:  
+else:  # in isoweekday, weekends, Sat is 6, Sun is 7
     print("It is the weekend, yay!")
 

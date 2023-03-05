@@ -14,15 +14,13 @@
 # the Newton Method square root approximation formula
 # newtsqrt = 0.5*(guess+(flonum/guess)), let num be any number, and guess is the approximation of the square root of num
 
-flonum=int(input("Please enter a positive number: ")) # prompt to input a positive number
+flonum=float(input("Please enter a positive number: ")) # prompt to input a positive float number
 
-def newtsqrt(flonum, base):
+def newtsqrt(flonum): # define the function newtsqrt
     guess=0.5*flonum # to get the square root of flonum ONLY
-    for i in range(base):
-        sqrt=0.5*(guess+(flonum/guess)) # to calculate a better approximation of guess
-        guess=sqrt # Update squareroot
-    return sqrt
-
-print(f"The square root of {flonum} is {sqrt}")
-
-# newtsqrt(14.5)
+    better=0.5*(guess+flonum/guess)  # to calculate a better approximation of guess
+    while better!=guess: # while loop, as long as better is not equal to approx
+        guess=better # this is to hold the value
+        better=0.5*(guess+flonum/guess)  # updating the guess
+    return round(guess,1) # rounding up to 1 decimal point
+print(f"The square root of {flonum} is approx. {newtsqrt(flonum)}.")
