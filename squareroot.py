@@ -22,5 +22,5 @@ def newtsqrt(flonum): # define the function newtsqrt
     while better!=guess: # while loop, as long as better is not equal to approx
         guess=better # this is to hold the value
         better=0.5*(guess+flonum/guess)  # updating the guess
-    return round(guess,1) # rounding up to 1 decimal point
-print(f"The square root of {flonum} is approx. {newtsqrt(flonum)}.")
+    return round(better,1) # return number and round up to 1 decimal point
+print(f"The square root of {flonum} is approx. {newtsqrt(flonum)}.") # call function
