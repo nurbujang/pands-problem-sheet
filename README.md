@@ -192,8 +192,8 @@ The square root of 14.5 is approx. 3.8.
 1. I researched square root approximation using the Newton method (1-5) and decided to use (5) because it is simple and elegant.
 2. First, I created a prompt to enter a prompt that will take in a float.
 3. Then I created a function with one argument (flonum) according to (6) to follow the formula newtsqrt = 0.5*(guess+(flonum/guess)), let flonum be any number, and guess is the approximation of the square root of flonum. I also declared the variables in the formula.
-4. I used the While loop (7) to get the initial and better approximations of the square root and returned the final number rounded up to 1 decimal point (8).
-5. Finally I called the function to print out the number and it's square root as shown in (6).
+4. I used the While loop (7) to get the guess and better approximations of the square root and returned the final number rounded up to 1 decimal point (8).
+5. Finally I called the function to print out the number and its square root as shown in (6).
 
 ### Conclusion:
 The program outputs the square root approximation of a positive floating-point number using the Newton Method.
