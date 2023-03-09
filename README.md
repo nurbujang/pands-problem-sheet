@@ -211,8 +211,11 @@ The program outputs the square root approximation of a positive floating-point n
 ## **WEEK 7 TASK: .py** 
 
 ### Task 7 Description:
-* *
-* * 
+*The task is to write a program that reads in a text file and outputs the number of e's it contains. It requires one to hink about what is being asked here and document any assumptions one makes. The program should take the filename from an argument on the command line.*
+
+$ python es.py moby-dick.txt
+
+116960* 
 
 ### Method:
 
