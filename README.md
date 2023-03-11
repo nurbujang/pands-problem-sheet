@@ -215,7 +215,7 @@ The program outputs the square root approximation of a positive floating-point n
 
 $ python es.py moby-dick.txt
 
-116960* 
+116960
 
 ### Method:
 
