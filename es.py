@@ -12,26 +12,49 @@
 
 # 116960
 
-FILENAME="moby-dick.txt"
-with open(FILENAME, 'r') as f:
-    file_name_data = f.read()
-    
-# start AFTER "WHALE SONG."
-
-start=find('WHALE SONG.'+1)
-
-# end BEFORE "End of this Project Gutenberg etext of Moby Dick, by Herman Melville"
-end=find('End of this Project Gutenberg etext of Moby Dick, by Herman Melville'-1)
-
+# import argparse module
 import argparse
-#create an argument object
-parser = argparse.ArgumentParser(description='Process some integers.') 
-# make calls to the add_argument() method
-parser.add_argument('integers', metavar='N', type=int, nargs='+',
-                    help='an integer for the accumulator')
-parser.add_argument('--sum', dest='accumulate', action='store_const',
-                    const=sum, default=max,
-                    help='sum the integers (default: find the max)')
 
+# instantiate an ArgumentParse class instance
+parser = argparse.ArgumentParser()
+
+# call the argument 'filename'
+parser.add_argument('filename')
+
+# parse the argument(s)
 args = parser.parse_args()
-print(args.accumulate(args.integers))
+
+# access the 'filename' argument
+#print(args.filename)
+
+filename = args.filename
+
+# open the file read-only
+with open(filename, 'r') as f:
+    file_content = f.read()
+
+# assume the starting point is upper-case 'CHAPTER 1', not 'Chapter 1'
+start_content = file_content.split('CHAPTER 1') 
+
+# declare ending_text, end BEFORE "End of this Project Gutenberg etext of Moby Dick, by Herman Melville"
+ending_text = 'End of this Project Gutenberg etext of Moby Dick, by Herman Melville'
+
+# assume the last element in the list has the ending_text
+# split again and keep only the first portion
+# overwrite this last element with the removed ending_text
+start_content[-1] = start_content[-1].split(ending_text)[0]
+
+# start with 0
+e_counter = 0
+
+# for each element in start_content, except the first one, count the 'E'
+# don't distinguish between lower-case and upper-case E
+for s in start_content[1:]:
+    e = s.upper().count('E')
+    e_counter+=e
+    
+# add one for 'Chapter 1' that was used for splitting
+e_counter+=1
+
+# final answer
+print(e_counter)
