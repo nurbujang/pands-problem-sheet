@@ -19,18 +19,17 @@ import argparse
 parser = argparse.ArgumentParser()
 
 # call the argument 'filename'
-parser.add_argument('filename')
+parser.add_argument('FILENAME')
 
 # parse the argument(s)
 args = parser.parse_args()
 
-# access the 'filename' argument
+# access the 'FILENAME' argument
 #print(args.filename)
-
-filename = args.filename
+FILENAME = args.FILENAME
 
 # open the file read-only
-with open(filename, 'r') as f:
+with open(FILENAME, 'r') as f:
     file_content = f.read()
 
 # assume the starting point is upper-case 'CHAPTER 1', not 'Chapter 1'
@@ -58,3 +57,5 @@ e_counter+=1
 
 # final answer
 print(e_counter)
+
+# number of 'e' from moby-dick.txt retrieved from this program is less than task instruction because it discounted texts before Chapter 1
