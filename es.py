@@ -18,14 +18,14 @@ import argparse
 # instantiate an ArgumentParse class instance
 parser = argparse.ArgumentParser()
 
-# call the argument 'filename'
+# call the argument 'FILENAME', remember, argument =things you pass data to a function without having to worry about what the data is
+# when you store the arguments inside the function, it becomes a parameter (parameters = variables inside of the function used to store that data)
 parser.add_argument('FILENAME')
 
 # parse the argument(s)
 args = parser.parse_args()
 
 # access the 'FILENAME' argument
-#print(args.filename)
 FILENAME = args.FILENAME
 
 # open the file read-only
@@ -49,7 +49,7 @@ e_counter = 0
 # for each element in start_content, except the first one, count the 'E'
 # don't distinguish between lower-case and upper-case E
 for s in start_content[1:]:
-    e = s.upper().count('E')
+    e = s.upper().count('E') # all text have been changed to upper case
     e_counter+=e
     
 # add one for 'Chapter 1' that was used for splitting
