@@ -58,4 +58,4 @@ e_counter+=1
 # final answer
 print(e_counter)
 
-# number of 'e' from moby-dick.txt retrieved from this program is less than task instruction because it discounted texts before Chapter 1
+# number of 'e' from moby-dick.txt retrieved from this program is less than task instruction because it discounted texts before Chapter 1 and the last statement declared by the online publisher.
