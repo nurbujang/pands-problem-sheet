@@ -223,7 +223,7 @@ $ python es.py moby-dick.txt
 3. Then, I accessed the FILENAME argument and opened the read only file (4) and decided to start my e_counter from "CHAPTER 1" and end before the sentence "End of this Project Gutenberg etext of Moby Dick, by Herman Melville'" using the string split method (5).
 4. I set the e_counter at 0 and used the For Loop (6). I converted the whole text into capital letters to get all the Es and not distinguish between small and capital letters from the original text.
 5. I added 1 in the amount to account for the E in CHAPTER 1 and printed the final answer.
-6. Note: The number of 'e' from moby-dick.txt retrieved from this program is less than task instruction because it discounted texts before Chapter 1.
+6. Note: The number of 'e' from moby-dick.txt retrieved from this program is less than task instruction because it discounted texts before CHAPTER 1 and the last statement declared by the online publisher.
 
 ### Conclusion:
 This program outputs the number of E in the moby-dick.txt file using the argparse module. The number of 'e' from moby-dick.txt retrieved from this program is less than task instruction because it discounted texts before Chapter 1 and the last statement declared by the online publisher.
