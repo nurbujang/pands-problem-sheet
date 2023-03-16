@@ -239,10 +239,10 @@ This program outputs the number of E in the moby-dick.txt file using the argpars
 ## **WEEK 8 TASK: plottask.py** 
 
 ### Task 8 Description:
-* The task is to write a program called plottask.py that displays:*
+*The task is to write a program called plottask.py that displays:*
 
-* 1. a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2*
-* 2. and a plot of the function  h(x)=x3 in the range [0, 10],* 
+*1. a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2*
+*2. and a plot of the function  h(x)=x3 in the range [0, 10],* 
 
 *on the one set of axes.*
 
