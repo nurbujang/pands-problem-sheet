@@ -208,7 +208,7 @@ The program outputs the square root approximation of a positive floating-point n
 7. https://www.w3schools.com/python/python_while_loops.asp
 8. https://www.w3schools.com/python/ref_func_round.asp
 
-## **WEEK 7 TASK: .py** 
+## **WEEK 7 TASK: es.py** 
 
 ### Task 7 Description:
 *The task is to write a program that reads in a text file and outputs the number of e's it contains. It requires one to think about what is being asked here and document any assumptions one makes. The program should take the filename from an argument on the command line.*
@@ -236,7 +236,7 @@ This program outputs the number of E in the moby-dick.txt file using the argpars
 5. https://www.w3schools.com/python/ref_string_split.asp
 6. https://www.w3schools.com/python/python_for_loops.asp
 
-## **WEEK 8 TASK: .py** 
+## **WEEK 8 TASK: plottask.py** 
 
 ### Task 8 Description:
 * The task is to write a program called plottask.py that displays:*
