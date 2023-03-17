@@ -22,7 +22,7 @@ plt.hist(normData, color='royalblue', edgecolor='#6495ED', linewidth=1)
 
 # create data
 x = np.array(range(1, 10))
-# multiply each entry by itself twice to get y=x*x*x
+# multiply x by itself twice to get y=x cubed
 y = x*x*x 
 
 # customize plot, markertype, markersize, markercolor, linetype, linewidth, linecolor
@@ -37,7 +37,7 @@ plt.xlabel("x", color ='#00008B', fontdict = font2, style='oblique', fontweight=
 # to rotate and create a little space between y label and y-axis
 plt.ylabel("y", color ='#00008B', fontdict = font2, style='oblique', fontweight='bold', rotation = 0, labelpad=12)
 
-# customize legend using mpatches and mlines
+# define and customize legend using mpatches and mlines
 royalblue_patch = mpatches.Patch(color='royalblue', edgecolor='#6495ED', linewidth=1, label='random values')
 magenta_line = mlines.Line2D([], [], mec='magenta', marker='*', markersize=10, ls = '-.', linewidth = '2', color ='#B8860B')
 plt.legend([royalblue_patch, magenta_line], ["normal distribution of 1000 random values", "$x^3$"], loc='upper left')
