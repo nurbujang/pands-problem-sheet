@@ -252,6 +252,9 @@ This program outputs the number of E in the moby-dick.txt file using the argpars
 
 ### Method:
 1. Looking at the question, I decided that it would be overlay plots (1,2).
+2. First, I imported 4 modules, numpy, pyplot,  and mpatches and mlines for legends (3).
+3. Then, I created a normal distribution curve histogram of 100 random values (4,5). The random.seed is set to 1 so that the 'random' numbers are the same each time (6).
+4.  
 
 ### Conclusion:
 
@@ -259,4 +262,5 @@ This program outputs the number of E in the moby-dick.txt file using the argpars
 ### References:
 1. https://stackoverflow.com/questions/67253174/how-to-set-space-between-the-axis-and-the-label/67253601
 2. https://kaleidoscopicdiaries.wordpress.com/2015/05/30/distance-between-axes-label-and-axes-in-matplotlib/
-3.
+3. https://matplotlib.org/stable/tutorials/intermediate/legend_guide.html
+4. https://www.w3schools.com/python/ref_random_seed.asp
