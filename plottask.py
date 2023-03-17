@@ -28,12 +28,14 @@ y = x*x*x
 # customize plot
 plt.plot(x, y, marker = '*', ms = 10, mec = 'm', ls = '-.', linewidth = '2', color ='#B8860B', label = "$x^3$")
 # declare font and font size
-font1 = {'family':'fantasy', 'size':17}
-font2 = {'family':'sans-serif', 'size':14}
+font1 = {'family':'fantasy', 'size':20}
+font2 = {'family':'monospace', 'size':18}
 # customize plot title and axis labels, x$^3$=$x^3$ for superscript
 plt.title("Figure 1: h(x)=$x^3$ Plot", color ='#191970', fontdict = font1, fontweight='bold')
 plt.xlabel("x", color ='#00008B', fontdict = font2, style='oblique', fontweight='bold')
-plt.ylabel("y", color ='#00008B', fontdict = font2, style='oblique', fontweight='bold', rotation = 0)
+#this code also rotates and creates a little space between y label and y-axis
+plt.ylabel("y", color ='#00008B', fontdict = font2, style='oblique', fontweight='bold', rotation = 0, labelpad=12)
+
 # customize legend
 royalblue_patch = mpatches.Patch(color='royalblue', edgecolor='#6495ED', linewidth=1, label='random values')
 magenta_line = mlines.Line2D([], [], mec='magenta', marker='*', markersize=10, ls = '-.', linewidth = '2', color ='#B8860B')
