@@ -1,6 +1,7 @@
 # bank.py
 # Author: Nur Bujang
 # Weekly Task 2
+
 # Banks store currency figures as integers (usually in cent) to avoid rounding errors
 # This program should:
 # prompt the user and read in two money amounts (in cent)
