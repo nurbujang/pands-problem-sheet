@@ -16,7 +16,7 @@ import matplotlib.lines as mlines
 
 # this is so that the "random" numbers are the same each time
 np.random.seed(1)
-#create normal distribution curve
+# create normal distribution curve, mean=loc, standard deviation=scale
 normData=np.random.normal(loc = 5, scale = 2, size = 1000)
 plt.hist(normData, color='royalblue', edgecolor='#6495ED', linewidth=1)
 
@@ -34,7 +34,7 @@ font2 = {'family':'monospace', 'size':18}
 # customize plot title and axis labels, x$^3$=$x^3$ for superscript
 plt.title("Figure 1: h(x)=$x^3$ Plot", color ='#191970', fontdict = font1, fontweight='bold')
 plt.xlabel("x", color ='#00008B', fontdict = font2, style='oblique', fontweight='bold')
-# this code also rotates and creates a little space between y label and y-axis
+# to rotate and create a little space between y label and y-axis
 plt.ylabel("y", color ='#00008B', fontdict = font2, style='oblique', fontweight='bold', rotation = 0, labelpad=12)
 
 # customize legend using mpatches and mlines
