@@ -251,12 +251,12 @@ This program outputs the number of E in the moby-dick.txt file using the argpars
 
 
 ### Method:
-
+1. Looking at the question, I decided that it would be overlay plots (1,2).
 
 ### Conclusion:
 
 
 ### References:
-1.
-2.
+1. https://stackoverflow.com/questions/67253174/how-to-set-space-between-the-axis-and-the-label/67253601
+2. https://kaleidoscopicdiaries.wordpress.com/2015/05/30/distance-between-axes-label-and-axes-in-matplotlib/
 3.
