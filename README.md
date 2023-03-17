@@ -253,14 +253,30 @@ This program outputs the number of E in the moby-dick.txt file using the argpars
 ### Method:
 1. Looking at the question, I decided that it would be overlay plots (1,2).
 2. First, I imported 4 modules, numpy, pyplot,  and mpatches and mlines for legends (3).
-3. Then, I created a normal distribution curve histogram of 100 random values (4,5). The random.seed is set to 1 so that the 'random' numbers are the same each time (6).
-4.  
+3. Then, I created a normal distribution curve histogram of 100 random values (4,5). The random.seed was set to 1 so that the 'random' numbers are the same each time (6). The histogram were customized according to (7), (8) and (9).
+4. For the plot, the variables, x and y were defined first. Then, the plot was customized by changing the markertype, markersize, markercolor, linetype, linewidth and linecolor (10-12), as well as plot title fonts and axis labels according to (13-14). For precision purposes, x3 was superscripted (15).
+5. Space was added between the y label and y-axis to make the plot look neater (16-17). 
+6. Finally, the legend was attached (3), the grid lines were added (18) and the plot was shown (11).
 
 ### Conclusion:
-
+The output generated overlay plots containing a histogram of a normal distribution curve of random values and a line plot of the function h(x)=x3 in the range [0,10].
 
 ### References:
 1. https://stackoverflow.com/questions/67253174/how-to-set-space-between-the-axis-and-the-label/67253601
 2. https://kaleidoscopicdiaries.wordpress.com/2015/05/30/distance-between-axes-label-and-axes-in-matplotlib/
 3. https://matplotlib.org/stable/tutorials/intermediate/legend_guide.html
-4. https://www.w3schools.com/python/ref_random_seed.asp
+4. https://www.w3schools.com/python/numpy/numpy_random_normal.asp
+5. https://www.w3schools.com/python/python_ml_normal_data_distribution.asp
+6. https://www.w3schools.com/python/ref_random_seed.asp
+7. https://www.w3schools.com/python/matplotlib_histograms.asp
+8. https://stackoverflow.com/questions/42741687/python-histogram-outline
+9. https://realpython.com/python-histograms/
+10. https://matplotlib.org/stable/tutorials/text/text_intro.html
+11. https://www.w3schools.com/python/matplotlib_pyplot.asp
+12. https://www.w3schools.com/colors/colors_names.asp
+13. https://www.w3schools.com/python/trypython.asp?filename=demo_pyplot_title_fontdict
+14. https://matplotlib.org/stable/tutorials/text/text_props.html
+15. https://stackoverflow.com/questions/21226868/superscript-in-python-plots
+16. https://stackoverflow.com/questions/67253174/how-to-set-space-between-the-axis-and-the-label/67253601
+17. https://kaleidoscopicdiaries.wordpress.com/2015/05/30/distance-between-axes-label-and-axes-in-matplotlib/
+18. https://www.w3schools.com/python/matplotlib_grid.asp
