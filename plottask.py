@@ -18,7 +18,7 @@ import matplotlib.lines as mlines
 np.random.seed(1)
 #create normal distribution curve
 normData=np.random.normal(loc = 5, scale = 2, size = 1000)
-plt.hist(normData, color='royalblue')
+plt.hist(normData, color='royalblue', edgecolor='#6495ED', linewidth=1)
 
 # create data
 x = np.array(range(1, 10))
@@ -35,7 +35,7 @@ plt.title("Figure 1: h(x)=$x^3$ Plot", color ='#191970', fontdict = font1, fontw
 plt.xlabel("x", color ='#00008B', fontdict = font2, style='oblique', fontweight='bold')
 plt.ylabel("y", color ='#00008B', fontdict = font2, style='oblique', fontweight='bold', rotation = 0)
 # customize legend
-royalblue_patch = mpatches.Patch(color='royalblue', label='random values')
+royalblue_patch = mpatches.Patch(color='royalblue', edgecolor='#6495ED', linewidth=1, label='random values')
 magenta_line = mlines.Line2D([], [], mec='magenta', marker='*', markersize=10, ls = '-.', linewidth = '2', color ='#B8860B')
 plt.legend([royalblue_patch, magenta_line], ["random values", "$x^3$"], loc='upper left')
 plt.grid(axis = 'y', color = '#8FBC8F', linestyle = '--', linewidth = 0.3)
