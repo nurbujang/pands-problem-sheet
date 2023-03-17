@@ -40,7 +40,7 @@ plt.ylabel("y", color ='#00008B', fontdict = font2, style='oblique', fontweight=
 # customize legend using mpatches and mlines
 royalblue_patch = mpatches.Patch(color='royalblue', edgecolor='#6495ED', linewidth=1, label='random values')
 magenta_line = mlines.Line2D([], [], mec='magenta', marker='*', markersize=10, ls = '-.', linewidth = '2', color ='#B8860B')
-plt.legend([royalblue_patch, magenta_line], ["random values", "$x^3$"], loc='upper left')
+plt.legend([royalblue_patch, magenta_line], ["normal distribution of 1000 random values", "$x^3$"], loc='upper left')
 
 # add grid on y-axis
 plt.grid(axis = 'y', color = '#8FBC8F', linestyle = '--', linewidth = 0.3)
