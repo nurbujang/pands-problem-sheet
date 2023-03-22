@@ -256,8 +256,8 @@ This program outputs the number of E in the moby-dick.txt file using the argpars
 3. Then, I created a normal distribution curve histogram of 100 random values (4,5). The random.seed was set to 1 so that the 'random' numbers are the same each time (6). The histogram was customized according to (7), (8) and (9).
 4. For the plot, the variables, x and y were defined first. Then, the plot was customized by changing the markertype, markersize, markercolor, linetype, linewidth and linecolor (10-12), as well as plot title fonts and axis labels according to (13-14). For precision purposes, x3 was superscripted (15).
 5. Space was added between the y label and y-axis to make the plot look neater (16-17). 
-6. The legend labels were defined and customised using mpatches and mlines (3).
-7. The grid lines were added (18) and finally, the plot was shown (11).
+6. The legend labels were defined and customised using mpatches and mlines (3) and the grid lines were added (18).
+7. Finally, the plot was shown (11).
 
 ### Conclusion:
 The output generated overlay plots containing a histogram of a normal distribution curve of random values and a line plot of the function h(x)=x3 in the range [0,10].
