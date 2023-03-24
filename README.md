@@ -42,8 +42,8 @@ Enter amount2(in cent): 180*
 ### Method:
 1. Firstly, I defined and prompted amount1. Input is a string or text, so it had to be converted into numbers (1). The same was done for amount2.
 2. I divided the sum with 100 using (/) to divide it into a float so that it is printed in euro and cent amount as shown in (2).
-3. According to (3) and (4), f or f-strings means formatted string literals, which is a new string formatting approach in Python 3.6 and above. it is not a function. I also noticed spacing between prompt and result, so (\n) was applied.
-4. The program was then tested using other amounts and consistently displayed the correct sum.
+3. According to (3) and (4), f or f-strings means formatted string literals, which is a new string formatting approach in Python 3.6 and above. It is not a function. There was a space between prompt and result, so (\n) was applied.
+4. Then program was tested using other amounts and consistently displayed the correct sum.
 
 ### Conclusion:
 This output was achieved from the bank.py program:
@@ -82,8 +82,8 @@ To modify the program to deal with account numbers of any length (a vague requir
 ### Method:
 1. First, I defined and prompted the 10 digit account number. Remember that the account number is a string.
 2. For the first method in Question 1, I sliced the string to replace the first 6 numbers with X and display only the last 4 digits of the account number following (1) and (2). The replacement is defined as "XXXXXX" and the syntax used is replace(old, new, count), where old=digits I want to replace, new=what I want to replace it with, and count=how many times I want to perform the replacements. I set it to 1, so it won't replace anything but the first occurrence of the substring.
-3. For the second method in Question 1, the length function, len() was used for this program as shown in (3) and (4). First I defined and prompted for  the account number. I then sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 were replaced by "X". I displayed only the last 4 of the input string and printed out an output of replacement+display.
-4. The account number length is unknown in Question 2. The length function, len(), is again used for this program as shown in (3) and (4). First I defined and prompted for account number of any length. I then sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 were replaced by "X". I displayed only the last 4 of the input string and printed out an output of replacement+display.
+3. For the second method in Question 1, the length function, len() was used for this program as shown in (3) and (4). First I defined and prompted for  the account number. Then, I sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 were replaced by "X". I displayed only the last 4 of the input string and printed out an output of replacement+display.
+4. The account number length is unknown in Question 2. The length function, len(), is again used for this program as shown in (3) and (4). First I defined and prompted for account number of any length. Then, I sliced the string into 2, which were replacement and display. Because a string is a list, replacement=length(all-4) multiplied by "X" which is a string, becomes N(X). This means that all of the numbers but the last 4 were replaced by "X". I displayed only the last 4 of the input string and printed out an output of replacement+display.
 
 ### Conclusions:
 1. This output was achieved using 2 different programs, the first uses replace function and the second uses replace and length functions:
@@ -99,7 +99,8 @@ XXXXXXXXXXXXXXXX1100
 - branch code/sort code
 - routing codes
 The use of this program is not only limited to banks, but other consumers which requires bank account numbers, such as money transfer websites which is used globally. So the program should be able to accommodate any account length from banks around the world, which can be up to 34 characters.
-So I assumed that input_string is the account number of ANY length. Hence, to display only the last 4 digits, I used (len(input_string) MINUS 4) MULTIPLIED BY X. So all these other front digits will be displayed as X.
+
+Therefore, I assumed that input_string is the account number of ANY length. Hence, to display only the last 4 digits, I used (len(input_string) MINUS 4) MULTIPLIED BY X. So, all these other front digits will be displayed as X.
 
 ### References:
 1. https://www.w3schools.com/python/python_strings_slicing.asp
@@ -128,7 +129,7 @@ At each step, to calculate the next value by taking the current value and, if it
 4. I used a While loop which will end when the value is 1, and assigned temp_posint as temporary storage because I have to declare a variable somewhere.
 5. If...Else was used (3) because it only has odd or even numbers. If the number is even, divide by 2 in integer form (4) and if odd, multiply by 3 and add 1, again in integer form.
 6. The next subsequent numbers will be replaced by temp_posint, because it is a whole sequence of numbers.
-7. Finally the sequence of numbers was printed out with space between the numbers using separator sep=" " according to (5) and (6).
+7. Finally, the sequence of numbers was printed out with space between the numbers using separator sep=" " according to (5) and (6).
 
 ### Conclusion:
 Two programs were written to get the output. However, the first resulted in the numbers displayed in square brackets []. Program 2 resulted in the desired output using separator.
@@ -190,7 +191,7 @@ The square root of 14.5 is approx. 3.8.
 ### Method:
 1. I researched square root approximation using the Newton method (1-5) and decided to use (5) because it is simple and elegant.
 2. First, I created a prompt to enter a prompt that will take in a float.
-3. Then I created a function with one argument (flonum) according to (6) to follow the formula newtsqrt = 0.5*(guess+(flonum/guess)), where I let flonum to be be any number, and guess is the approximation of the square root of flonum. I also declared the variables in the formula.
+3. Then, I created a function with one argument (flonum) according to (6) to follow the formula newtsqrt = 0.5*(guess+(flonum/guess)), where I let flonum to be be any number, and guess is the approximation of the square root of flonum. I also declared the variables in the formula.
 4. I used the While loop (7) to get the guess and better approximations of the square root and returned the final number rounded up to 1 decimal point (8).
 5. Finally I called the function to print out the number and its square root as shown in (6).
 
