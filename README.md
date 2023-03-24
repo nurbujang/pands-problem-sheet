@@ -12,9 +12,8 @@ Problem sheet for Programming and Scripting
 
 ### Method:
 1. Using VS Code, pands folder was created under the computer directory.
-2. 3 subfolders were created under pands: a. mywork  b. pands-course-material  c. pands-problem-sheet
-3. helloworld.py file was created under pands-problem-sheet. Comments were added to describe the code.
-4. Code format followed that of (1).
+2. Three subfolders were created under pands: a. mywork  b. pands-course-material  c. pands-problem-sheet
+3. The helloworld.py file was created under pands-problem-sheet. Comments were added to describe the code, and the code format followed that of (1).
 5. Python print() function was used to create a string output onto the screen (2).
 6. Python quote function was used for string representation (3).
 7. Python bracket function indicates that round brackets are generally used in function (4).
@@ -41,7 +40,7 @@ Enter amount2(in cent): 180*
 *The sum of these is €2.45*
 
 ### Method:
-1. First is to define and prompt amount1. Input is a string or text, so it had to be converted into numbers (1). The same was done for amount2.
+1. Firstly, I defined and prompted amount1. Input is a string or text, so it had to be converted into numbers (1). The same was done for amount2.
 2. I divided the sum with 100 using (/) to divide it into a float so that it is printed in euro and cent amount as shown in (2).
 3. According to (3) and (4), f or f-strings means formatted string literals, which is a new string formatting approach in Python 3.6 and above. it is not a function. I also noticed spacing between prompt and result, so (\n) was applied.
 4. The program was then tested using other amounts and consistently displayed the correct sum.
