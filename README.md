@@ -227,7 +227,7 @@ $ python es.py moby-dick.txt
 7. Note: The number of 'e' from moby-dick.txt retrieved from this program is less than task instruction because it discounted texts before CHAPTER 1 and the last statement declared by the online publisher.
 
 ### Conclusion:
-This program outputs the number of E in the moby-dick.txt file using the argparse module. The number of 'e' from moby-dick.txt retrieved from this program is less than task instruction because it discounted texts before Chapter 1 and the last statement declared by the online publisher.
+This program outputs the number of 'e' in the moby-dick.txt file using the argparse module. The number of 'e' from moby-dick.txt retrieved from this program is less than task instruction because it excluded texts before Chapter 1 and the last statement declared by the online publisher.
 
 ### References:
 1. https://www.gutenberg.org/files/2701/old/moby10b.txt
