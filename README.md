@@ -255,7 +255,7 @@ This program outputs the number of E in the moby-dick.txt file using the argpars
 1. It was decided that the plot would be overlay plots (1,2).
 2. First, I imported 4 modules, numpy, pyplot,  and mpatches and mlines for legends (3).
 3. Then, I created a normal distribution curve histogram of 100 random values (4,5). The random.seed was set to 1 so that the 'random' numbers are the same each time (6). The histogram was customized according to (7), (8) and (9).
-4. For the plot, the variables, x and y were defined first. Then, the plot was customized by changing the markertype, markersize, markercolor, linetype, linewidth and linecolor (10-12), as well as plot title fonts and axis labels according to (13-14). For precision purposes, x3 was superscripted (15).
+4. For the line plot, the variables, x and y were defined first. Then, the plot was customized by changing the markertype, markersize, markercolor, linetype, linewidth and linecolor (10-12), as well as plot title fonts and axis labels according to (13-14). For precision purposes, x3 was superscripted (15).
 5. Space was added between the y label and y-axis to make the plot look neater (16-17). 
 6. The legend labels were defined and customised using mpatches and mlines (3) and the grid lines were added (18).
 7. Finally, the plot was shown (11).
