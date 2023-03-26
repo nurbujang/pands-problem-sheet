@@ -16,7 +16,7 @@ import matplotlib.lines as mlines
 
 # this is so that the "random" numbers are the same each time
 np.random.seed(1)
-# create normal distribution curve, mean=loc, standard deviation=scale
+# create normal distribution curve histogram, mean=loc, standard deviation=scale
 normData=np.random.normal(loc = 5, scale = 2, size = 1000)
 plt.hist(normData, color='royalblue', edgecolor='#6495ED', linewidth=1)
 
