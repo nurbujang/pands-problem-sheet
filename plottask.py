@@ -8,6 +8,9 @@
 # on the one set of axes.
 # add legends etc to the plot
 
+# feedback: histogram goes between 0 to 12 not 0 to 10
+# could be fixed with picking a seed, or filtering out the errant values
+
 # import modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -18,7 +21,7 @@ import matplotlib.lines as mlines
 np.random.seed(1)
 # create normal distribution curve histogram, mean=loc, standard deviation=scale
 normData=np.random.normal(loc = 5, scale = 2, size = 1000)
-plt.hist(normData, color='royalblue', edgecolor='#6495ED', linewidth=1)
+plt.hist(normData, range(0,11), color='royalblue', edgecolor='#6495ED', linewidth=1) # range added to be between 0 and 10
 
 # create data
 x = np.array(range(1, 10))
